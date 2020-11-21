@@ -14,7 +14,11 @@ module.exports = {
                 use: [{
                     loader: "html-loader"
                 }]
-            }
+            },
+            {
+                test: 'node_modules/draft-js/dist/Draft.css',
+                use: ["style-loader", "css-loader"],
+            },
         ]
     },
     plugins: [
