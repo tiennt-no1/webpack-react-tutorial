@@ -4,7 +4,7 @@ import createLinkPlugin from 'draft-js-anchor-plugin';
 import createInlineToolbarPlugin from 'draft-js-inline-toolbar-plugin';
 import { ItalicButton, BoldButton, UnderlineButton } from 'draft-js-buttons';
 import React from 'react';
-import 'draft-js-anchor-plugin/lib/plugin.css'
+
 
 // Here's your chance to pass in a configuration object (see below).
 const linkPlugin = createLinkPlugin();
