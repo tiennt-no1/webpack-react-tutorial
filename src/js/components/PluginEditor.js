@@ -12,8 +12,8 @@ const linkPlugin = createLinkPlugin();
 // Pass the `linkPlugin.LinkButton` into the structure of the inline toolbar.
 const inlineToolbarPlugin = createInlineToolbarPlugin({
   structure: [
-    BoldButton,
     ItalicButton,
+    BoldButton,
     UnderlineButton,
     linkPlugin.LinkButton
   ]
