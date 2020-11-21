@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Editor, EditorState} from 'draft-js';
+import {EditorState} from 'draft-js';
+import PluginEditor from './PluginEditor'
 
 class MyEditor extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class MyEditor extends React.Component {
 
   render() {
     return (
-      <Editor editorState={this.state.editorState} onChange={this.onChange} />
+      <PluginEditor editorState={this.state.editorState} onChange={this.onChange} />
     );
   }
 }

@@ -16,8 +16,8 @@ module.exports = {
                 }]
             },
             {
-                test: 'node_modules/draft-js/dist/Draft.css',
-                use: ["style-loader", "css-loader"],
+                test: /\.css$/i,
+                use: [ "css-loader", "style-loader"],
             },
         ]
     },
