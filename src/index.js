@@ -1,4 +1,6 @@
-require('./index.css')
-import Form from "./js/components/MyEditor";
+import './index.css'
+import "./js/components/MyEditor";
 
-// import 'draft-js-anchor-plugin/lib/plugin.css'
+
+import 'draft-js/dist/Draft.css'
+import 'draft-js-anchor-plugin/lib/plugin.css'
